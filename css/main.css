@@ -67,7 +67,9 @@ body {
 }
 /*----------Section--------*/
 
-
+.new-album {
+    background-color: blue;
+}
 
 /*----------Footer--------*/
 
