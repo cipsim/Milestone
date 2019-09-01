@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Open+Sans:300,400,700,800&display=swap');
 
+body {
+    background: url(../media/bg.jpg);
+    background-position: 50% 15%;
+    background-size: cover;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
 /*----------Header--------*/
 
 .logo {
@@ -54,11 +65,29 @@
         color: #a0040d;
     }
 }
+/*----------Section--------*/
+
+
 
 /*----------Footer--------*/
 
 footer {
+    position: absolute;
+    bottom: 0;
     background-color: #1a1a1b;
     color: #a0040d;
     min-height: 5vh;
+}
+
+#staticpreOrder2 {
+    color: #a0040d;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.btn-preorder {
+    background-color: #a0040d;
+    color: 
 }
