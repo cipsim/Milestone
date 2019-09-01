@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700&display=swap');
+
+/*----------Header--------*/
+
+.logo {
+    background: url(../media/logo.png);
+    background-color: #000000;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 15vh;
+    transition: all .5s ease-in-out;
+    position: static;
+}
+
+/*----------Menu--------*/
+
+.top-menu {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 700;
+    background-color: #1a1a1b;
+    min-height: 5vh;
+}
+
+.top-menu-music a{
+    color: #055995;
+}
+
+.top-menu-news a{
+    color: #800107;
+}
+
+.top-menu-tour a{
+    color: #3a90a7;
+}
+
+.top-menu-merch a{
+    color: #36b19c;
+}
+
+.top-menu:hover {
+    background-color: #000000;
+}
+
+/*----------Menu Mobile--------*/
+
+@media only screen and (max-width: 575px) {
+  .top-menu-news a{
+    color: #3a90a7;
+}
+.top-menu-tour a{
+    color: #800107;
+}
+}
