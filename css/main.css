@@ -7,8 +7,8 @@ body {
 }
 
 #page-container {
-  position: relative;
-  min-height: 100vh;
+    position: relative;
+    min-height: 100vh;
 }
 
 /*----------Header--------*/
@@ -25,6 +25,7 @@ body {
 }
 
 /*----------Menu--------*/
+
 .top-menu {
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: 700;
@@ -36,7 +37,7 @@ body {
 
 .top-menu-music a {
     color: #0364a1;
-    
+
 }
 
 .top-menu-news a {
@@ -65,16 +66,58 @@ body {
         color: #a0040d;
     }
 }
+
 /*----------Section--------*/
 
 .new-album {
-    background-color: blue;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin: 5vh 5vh auto 5vh;
+    min-height: 45vh;
+    border: 0;
+}
+
+.new-album-card {
+    background-color: transparent;
+    border: 0px;
+}
+
+.card-body {
+    margin-top: 5vh;
+}
+
+.new-album-card-text {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #fff;
+    text-align: center;
+}
+
+.new-album-card-text h5 {
+    font-size: 36px;
+    margin-bottom: 3vh;
+}
+
+.btn-preorder {
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    background-color: #a0040d96;
+    border-color: #a0040d;
+    border-radius: 25px;
+    margin-top: 3vh;
+}
+
+.btn-preorder:hover {
+    background-color: #a0040d;
+    border-color: #a0040d;
 }
 
 /*----------Footer--------*/
 
 footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     background-color: #1a1a1b;
     color: #a0040d;
@@ -87,9 +130,4 @@ footer {
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 2px;
-}
-
-.btn-preorder {
-    background-color: #a0040d;
-    color: 
 }
