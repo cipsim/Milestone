@@ -56,17 +56,6 @@ body {
     background-color: #000000;
 }
 
-/*----------Menu Mobile--------*/
-
-@media only screen and (max-width: 575px) {
-    .top-menu-news a {
-        color: #3a90a7;
-    }
-    .top-menu-tour a {
-        color: #a0040d;
-    }
-}
-
 /*----------Section--------*/
 
 .new-album {
@@ -128,8 +117,32 @@ footer {
     min-height: 5vh;
 }
 
-.social-icons{
+.footer-contact {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
     padding-top: 15px;
+}
+
+.footer-contact a i{
+    padding-left: 1vh;
+    color: #a0040d;
+}
+
+.mail-link {
+    transition: all .35s ease-in-out;
+    -o-transition: all .35s ease-in-out;
+    -moz-transition: all .35s ease-in-out;
+    -webkit-transition: all .35s ease-in-out;
+}
+
+.mail-link:hover {
+    color:  #36b19c;
+}
+
+.social-icons {
+    padding-top: 15px;
+    text-align: right;
 }
 
 .social-links li a i {
@@ -152,3 +165,24 @@ footer {
     background: #36b19c;
     color: #fff;
 }
+
+/*----------Responsive for Mobile--------*/
+
+@media only screen and (max-width: 575px) {
+    .top-menu-news a {
+        color: #3a90a7;
+    }
+    .top-menu-tour a {
+        color: #a0040d;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .footer-contact {
+        text-align: center;
+    }
+    .social-icons {
+        text-align: center;
+    }
+}
+
