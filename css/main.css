@@ -124,7 +124,7 @@ footer {
     padding-top: 15px;
 }
 
-.footer-contact a i{
+.footer-contact a i {
     padding-left: 1vh;
     color: #a0040d;
 }
@@ -137,7 +137,7 @@ footer {
 }
 
 .mail-link:hover {
-    color:  #36b19c;
+    color: #36b19c;
 }
 
 .social-icons {
@@ -166,6 +166,10 @@ footer {
     color: #fff;
 }
 
+/*----------News--------*/
+
+
+
 /*----------Responsive for Mobile--------*/
 
 @media only screen and (max-width: 575px) {
@@ -186,3 +190,9 @@ footer {
     }
 }
 
+@media only screen and (min-width: 575px) {
+    .interview {
+       padding-top: 8vh;
+    }
+    
+}
