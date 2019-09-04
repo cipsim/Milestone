@@ -212,6 +212,47 @@ footer {
     -webkit-filter: grayscale(0%);
 }
 
+/*----------Merch--------*/
+
+.merch-container {
+    margin: 15vh 5vh 15vh 5vh;
+    text-align: center;
+}
+
+.merch-container p {
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.merch-col {
+    padding: 3vh;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+}
+
+.merch-col-tshirt {
+    margin: 3vh;
+    max-height: 350px;
+    max-width: 350px;
+}
+
+.merch-col-tshirt img {
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.merch-col-cd {
+    margin: 3vh;
+}
+
+.merch-col-sale {
+    margin: 3vh;
+}
+
 /*----------Tour--------*/
 
 /*--bg filter--*/
@@ -267,19 +308,11 @@ footer {
     color: #fff;
 }
 
-
-/*.tour-btn a {*/
-/*    color: #36b19c;*/
-/*    padding-left: 1vh;*/
-/*    padding-right: 1vh;*/
-/*    text-decoration: none;*/
-/*    transition: all .35s ease-in-out;*/
-/*}*/
-
 .tour-btn {
     margin-left: 5vh;
     border-radius: 10px;
     color: #36b19c;
+    transition: all .35s ease-in-out;
 }
 
 .btn:hover {
@@ -291,20 +324,29 @@ footer {
 
 .tour-container-sm {
     padding: 5vh;
-    
+
 }
 
-.tour-list a{
+span {
+    color: #36b19c;
+}
+
+.tour-list a {
     text-align: center;
     color: #fff;
     background: transparent;
     border: none;
 }
 
-.tour-text-sm{
+.tour-list p {
+    margin-top: 5vh;
+}
+
+.tour-text-sm {
     font-family: 'Oswald', sans-serif;
     letter-spacing: 2px;
     font-size: 14px;
+    text-align: center;
     text-transform: uppercase;
     color: #a0040d;
 }
