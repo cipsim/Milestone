@@ -227,6 +227,11 @@ footer {
     text-transform: uppercase;
 }
 
+.merch-row{
+    margin-left: 5vh;
+    margin-right: 5vh;
+}
+
 .merch-col {
     padding: 3vh;
     background-color: rgba(255, 255, 255, 0.3);
@@ -235,8 +240,8 @@ footer {
 
 .merch-col-tshirt {
     margin: 3vh;
-    max-height: 350px;
-    max-width: 350px;
+    max-height: 150vh;
+    max-width: 150vh;
 }
 
 .merch-col-tshirt img {
