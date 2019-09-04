@@ -289,6 +289,26 @@ footer {
 
 /*----------Responsive for Mobile--------*/
 
+.tour-container-sm {
+    padding: 5vh;
+    
+}
+
+.tour-list a{
+    text-align: center;
+    color: #fff;
+    background: transparent;
+    border: none;
+}
+
+.tour-text-sm{
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #a0040d;
+}
+
 @media only screen and (max-width: 575px) {
     .top-menu-news a {
         color: #3a90a7;
