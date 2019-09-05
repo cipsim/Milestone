@@ -12,53 +12,6 @@ body {
 }
 /*----------Index--------*/
 
-/*----------Header--------*/
-
-.logo {
-    background: url(../media/logo.png);
-    background-color: #000000;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    min-height: 15vh;
-    transition: all .5s ease-in-out;
-    position: static;
-}
-
-/*----------Menu--------*/
-
-.top-menu {
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    background-color: #1a1a1b;
-    min-height: 5vh;
-}
-
-.top-menu-music a {
-    color: #0364a1;
-
-}
-
-.top-menu-news a {
-    color: #a0040d;
-}
-
-.top-menu-tour a {
-    color: #3a90a7;
-}
-
-.top-menu-merch a {
-    color: #36b19c;
-}
-
-.top-menu:hover {
-    background-color: #000000;
-}
-
-/*----------Section--------*/
-
 .new-album {
     background-color: rgba(255, 255, 255, 0.3);
     margin: 5vh 5vh auto 5vh;
@@ -112,6 +65,52 @@ body {
     text-align: center;
 }
 
+/*----------Header--------*/
+
+.logo {
+    background: url(../media/logo.png);
+    background-color: #000000;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 15vh;
+    transition: all .5s ease-in-out;
+    position: static;
+}
+
+/*----------Menu--------*/
+
+.top-menu {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: #1a1a1b;
+    min-height: 5vh;
+}
+
+.top-menu-music a {
+    color: #0364a1;
+
+}
+
+.top-menu-news a {
+    color: #a0040d;
+}
+
+.top-menu-tour a {
+    color: #3a90a7;
+}
+
+.top-menu-merch a {
+    color: #36b19c;
+}
+
+.top-menu:hover {
+    background-color: #000000;
+}
+
+
 /*----------Footer--------*/
 
 footer {
@@ -129,6 +128,7 @@ footer {
     padding-top: 15px;
 }
 
+/*-----CODE FROM UCD RESUME----*/
 .footer-contact a i {
     padding-left: 1vh;
     color: #a0040d;
@@ -170,8 +170,7 @@ footer {
     background: #36b19c;
     color: #fff;
 }
-
-/*----------End Index--------*/
+/*-----END OF CODE FROM UCD RESUME----*/
 
 
 /*----------Music--------*/
@@ -208,6 +207,8 @@ footer {
     background: #a0040d96;
 }
 
+
+/*-----CODE FROM CODEBLOCQ.COM----*/
 .music-cover img {
     border-radius: 10px;
     transition: filter .5s ease-in-out;
@@ -219,6 +220,8 @@ footer {
     filter: grayscale(0%);
     -webkit-filter: grayscale(0%);
 }
+/*-----END OF CODE FROM CODEBLOCQ.COM----*/
+
 
 /*----------Merch--------*/
 
@@ -269,7 +272,7 @@ footer {
 /*----------Tour--------*/
 
 /*--bg filter--*/
-
+/*-----CODE FROM STACKOVERFLOW.COM----*/
 .tour-section {
     overflow: auto;
     position: relative;
@@ -296,7 +299,7 @@ footer {
     -ms-filter: grayscale(100%) brightness(20%);
     filter: grayscale(100%) brightness(20%);
 }
-
+/*-----END OF CODE FROM STACKOVERFLOW.COM----*/
 /*--bg filter end--*/
 
 .tour-container {
