@@ -10,6 +10,7 @@ body {
     position: relative;
     min-height: 100vh;
 }
+/*----------Index--------*/
 
 /*----------Header--------*/
 
@@ -107,6 +108,10 @@ body {
     margin-bottom: 5vh;
 }
 
+.new-album-who {
+    text-align: center;
+}
+
 /*----------Footer--------*/
 
 footer {
@@ -165,6 +170,9 @@ footer {
     background: #36b19c;
     color: #fff;
 }
+
+/*----------End Index--------*/
+
 
 /*----------Music--------*/
 
