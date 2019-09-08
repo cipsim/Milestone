@@ -331,7 +331,7 @@ footer {
     transition: all .35s ease-in-out;
 }
 
-.btn:hover {
+.tour-btn:hover {
     color: #fff;
     background-color: #36b19c59;
 }
