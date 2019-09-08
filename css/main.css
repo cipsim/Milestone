@@ -10,10 +10,11 @@ body {
     position: relative;
     min-height: 100vh;
 }
+
 /*----------Index--------*/
 
 .new-album {
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.15);
     margin: 5vh 5vh auto 5vh;
     min-height: 45vh;
     border: 0;
@@ -129,6 +130,7 @@ footer {
 }
 
 /*-----CODE FROM UCD RESUME----*/
+
 .footer-contact a i {
     padding-left: 1vh;
     color: #a0040d;
@@ -170,15 +172,15 @@ footer {
     background: #36b19c;
     color: #fff;
 }
-/*-----END OF CODE FROM UCD RESUME----*/
 
+/*-----END OF CODE FROM UCD RESUME----*/
 
 /*----------Music--------*/
 
 .music-container {
     margin: 5vh 5vh 5vh 5vh;
     padding: 5vh 5vh 5vh 5vh;
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.15);
     min-height: 45vh;
     border-radius: 10px;
 }
@@ -200,28 +202,13 @@ footer {
     margin-top: 4vh;
     margin-bottom: 5vh;
     border-radius: 10px;
-    transition: background .5s ease-in-out;
+    min-height: 100%;
 }
 
-.music-cover:hover {
-    background: #a0040d96;
-}
-
-
-/*-----CODE FROM CODEBLOCQ.COM----*/
-.music-cover img {
+.music-cover iframe {
     border-radius: 10px;
-    transition: filter .5s ease-in-out;
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
+    height: 80%;
 }
-
-.music-cover img:hover {
-    filter: grayscale(0%);
-    -webkit-filter: grayscale(0%);
-}
-/*-----END OF CODE FROM CODEBLOCQ.COM----*/
-
 
 /*----------Merch--------*/
 
@@ -238,14 +225,14 @@ footer {
     text-transform: uppercase;
 }
 
-.merch-row{
+.merch-row {
     margin-left: 5vh;
     margin-right: 5vh;
 }
 
 .merch-col {
     padding: 3vh;
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.15);
     border-radius: 10px;
 }
 
@@ -272,7 +259,9 @@ footer {
 /*----------Tour--------*/
 
 /*--bg filter--*/
+
 /*-----CODE FROM STACKOVERFLOW.COM----*/
+
 .tour-section {
     overflow: auto;
     position: relative;
@@ -299,7 +288,9 @@ footer {
     -ms-filter: grayscale(100%) brightness(20%);
     filter: grayscale(100%) brightness(20%);
 }
+
 /*-----END OF CODE FROM STACKOVERFLOW.COM----*/
+
 /*--bg filter end--*/
 
 .tour-container {
